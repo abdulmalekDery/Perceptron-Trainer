@@ -1,0 +1,67 @@
+  NumOfInputNeuren = 25;
+            NumOfOutputNeuren = 3;
+            Epochs = 1000;
+            Threshold =0 ;
+            LearningRate = 1;
+            Bais = new double[3];
+            Weights = new double[25][];
+            RandomObj = new Random();
+            Bais[0] = RandomObj.NextDouble();
+            Bais[1]= RandomObj.NextDouble();
+            Bais[2]= RandomObj.NextDouble();
+            Weights[0] = new double[3] {RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[1] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[2] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[3] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[4] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[5] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[6] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[7] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[8] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[9] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[10] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[11] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[12] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[13] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[14] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[15] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[16] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[17] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[18] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[19] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[20] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[21] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[22] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[23] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+            Weights[24] = new double[3] { RandomObj.NextDouble(), RandomObj.NextDouble(), RandomObj.NextDouble() };
+
+
+            Inputs = new double[5][];
+            Inputs[0] = new double[25] { 0 ,0 ,1 ,0, 0, 0 ,1 ,1 ,0 ,0, 0 ,0, 1 ,0, 0, 0, 0 ,1 ,0 ,0 ,0, 1, 1, 1, 0 };
+            Inputs[1] = new double[25] { 0, 1, 1, 0, 0, 0 ,1, 1, 0 ,0 ,0 ,1, 0 ,0 ,0, 0 ,1, 0 ,0 ,0 ,1 ,1, 1, 0 ,0 };
+            Inputs[2] = new double[25] { 0 ,1, 1, 1, 0 ,0 ,0 ,0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1 ,0 };
+            Inputs[3] = new double[25] { 0 ,0, 1, 0, 0, 0, 1, 1 ,0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0 };
+            Inputs[4] = new double[25] { 0 ,1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0 };
+            DesiredOutput = new double[5][];
+            DesiredOutput[0] = new double[3] {0,0,1};
+            DesiredOutput[1] = new double[3] {0,1,0};
+            DesiredOutput[2] = new double[3] {0,1,1};
+            DesiredOutput[3] = new double[3] {1,0,0};
+            DesiredOutput[4] = new double[3] {1,0,1};
+			
+			
+			   Console.WriteLine(i);
+            Console.WriteLine(BipolarBinaryOutput(Inputs[0], 0)+"************************");
+            Console.WriteLine(BipolarBinaryOutput(Inputs[0], 1) + "************************");
+            Console.WriteLine(BipolarBinaryOutput(Inputs[0], 2) + "************************");
+			
+			
+			 Epochs = 1000;
+            Threshold = 0.4;
+            LearningRate = 0.5;
+            Bais = new double[3];
+            Weights = new double[25][];
+            RandomObj = new Random();
+            Bais[0] =0; 
+            Bais[1] =0;
+            Bais[2] = 0;

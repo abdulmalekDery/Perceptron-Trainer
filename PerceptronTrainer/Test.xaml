@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="PerceptronTrainer.Test"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PerceptronTrainer"
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <GroupBox Header="Test:" BorderThickness="0"  >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal">
+                <TextBox Controls:TextBoxHelper.SelectAllOnFocus="True" Controls:TextBoxHelper.UseFloatingWatermark="True" Name="newSampleTextBox"
+                         FontSize="18" Width="860" Controls:TextBoxHelper.Watermark="Input Test Sample" ></TextBox>
+                <Button  Name="Test1"  Content="Test Sample" ></Button>
+            </StackPanel>
+
+            <Label Grid.Row="1" Content="Result output :" FontSize="18" />
+            <TextBlock Grid.Row="2"  Margin="5" Name="ResultOutputTextBlock"  ></TextBlock>
+
+            <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="cansleButton" Content="Cancle" Margin="0,0,20,0" HorizontalAlignment="Center"  Width="80" />
+                <Button Name="ClearButton" Content="Clear" Click="ClearButton_Click" HorizontalAlignment="Center"  Width="80" />
+            </StackPanel>
+        </Grid>
+    </GroupBox>
+</UserControl>

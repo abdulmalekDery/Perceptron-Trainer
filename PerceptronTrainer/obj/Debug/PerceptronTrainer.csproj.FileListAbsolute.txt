@@ -1,0 +1,63 @@
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\bin\Debug\PerceptronTrainer.exe.config
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\bin\Debug\PerceptronTrainer.exe
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\bin\Debug\PerceptronTrainer.pdb
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\bin\Debug\MahApps.Metro.dll
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\bin\Debug\MahApps.Metro.pdb
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\bin\Debug\MahApps.Metro.xml
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.csprojResolveAssemblyReference.cache
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\MainWindow.g.cs
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\App.g.cs
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer_MarkupCompile.cache
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer_MarkupCompile.lref
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\App.baml
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\MainWindow.baml
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.g.resources
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.Properties.Resources.resources
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.csproj.GenerateResource.Cache
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.exe
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.pdb
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\Sample Input.g.cs
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\Sample Input.baml
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\InputTarget.g.cs
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\InputTarget.baml
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\Start.g.cs
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\Start.baml
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\InputWeight.g.cs
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\InputWeight.baml
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\Test.g.cs
+C:\Users\GIVARA\Source\Repos\PerseptronTrainer\PerceptronTrainer\obj\Debug\Test.baml
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\bin\Debug\PerceptronTrainer.exe.config
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.exe
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.pdb
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\bin\Debug\PerceptronTrainer.exe
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\bin\Debug\PerceptronTrainer.pdb
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\bin\Debug\MahApps.Metro.dll
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\bin\Debug\System.Windows.Interactivity.dll
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\bin\Debug\MahApps.Metro.pdb
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\bin\Debug\MahApps.Metro.xml
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.csprojResolveAssemblyReference.cache
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\InputTarget.g.cs
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\InputWeight.g.cs
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\MainWindow.g.cs
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\Sample Input.g.cs
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\Start.g.cs
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\Test.g.cs
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\Train.g.cs
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\App.g.cs
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer_MarkupCompile.cache
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer_MarkupCompile.lref
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\App.baml
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\InputTarget.baml
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\InputWeight.baml
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\MainWindow.baml
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\Sample Input.baml
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\Start.baml
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\Test.baml
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\Train.baml
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.g.resources
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.Properties.Resources.resources
+D:\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.csproj.GenerateResource.Cache
+F:\الكليّة\مشاريع\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\bin\Debug\PerceptronTrainer.exe.config
+F:\الكليّة\مشاريع\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.exe
+F:\الكليّة\مشاريع\Perceptron Trainer Project\PerseptronTrainer\PerceptronTrainer\obj\Debug\PerceptronTrainer.pdb

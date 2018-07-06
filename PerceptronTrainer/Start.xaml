@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="PerceptronTrainer.Start"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PerceptronTrainer"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" >
+        <Grid>
+            <TextBlock FontSize="16" Text="How to use this Software:" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"></TextBlock>
+            <TextBlock FontSize="14" HorizontalAlignment="Left" Text="1- Click on &quot;Enter Train Sample&quot; Button then enter the train samples each sample in a line and separate each two samples by comma   &#10;2- Next, Click on &quot;Enter desired output&quot; Button then enter each desired output for all output neuron in one line and separate &#10; each two output by a comma note that each desired output lineshould match each line from the previous step  
+                   &#10;3- Then from the drop down list &quot;Choose Activation Function&quot; combo box choose the suitable activation function for your input
+                   &#10;4- Then check on &quot;With Bias&quot; CheckBox if you want to use bais ,if you want random bais you can type &quot;random&quot; inside &quot;Enter bais&quot;textBox
+                  &#10;5- Then check &quot;Set Weights Manually&quot; checkBox to enter the weights manually note that if you didn't check this checkBox the weights will be random
+                  &#10;6- Then fill in the rest textBox with suitable information and click on &quot;Train&quot; Button to train this network
+                  &#10;7- After train the network you can test it by click on &quot;Test&quot; Button and input test sample to get correct output "  Margin="10,35,10,40"/>
+        </Grid>
+    </ScrollViewer>
+    
+</UserControl>

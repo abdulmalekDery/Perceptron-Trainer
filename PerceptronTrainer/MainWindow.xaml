@@ -1,0 +1,96 @@
+﻿<Controls:MetroWindow  x:Class="PerceptronTrainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PerceptronTrainer"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        mc:Ignorable="d"
+        Title="Perceptron Trainer" TitleCharacterCasing="Normal"
+                       MinHeight="550" MinWidth="975"
+                       WindowState="Maximized" BorderBrush="Blue" GlowBrush="Blue"  >
+    <Controls:MetroWindow.Resources>
+        <Style TargetType="GroupBox" x:Key="GroupBoxHeader">
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="Margin" Value="4"></Setter>
+        </Style>
+    </Controls:MetroWindow.Resources>
+
+    <Grid >
+        <Image Source="wallhaven-284217.jpg" Stretch="UniformToFill" >
+            <Image.OpacityMask>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+                    <GradientStop Offset="0.03" Color="#00000000" />
+                    <GradientStop Offset="0.9" Color="#FF000000" />
+                </LinearGradientBrush>
+            </Image.OpacityMask>
+        </Image>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Controls:MetroAnimatedSingleRowTabControl x:Name="MainTap" >
+            </Controls:MetroAnimatedSingleRowTabControl>
+
+
+            <Grid Grid.Column="1" Grid.Row="0">
+                <GroupBox Header="Parameters" >
+                    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                        <StackPanel>
+                            <Button Margin="5" Click="EnterSampleInputClick" >Enter Train Sample</Button>
+
+                            <Button Margin="5" Click="EntermatrixTargetClick">Enter desired output</Button>
+                            <ComboBox Margin="5" Name="activationCombo" Controls:TextBoxHelper.Watermark="Choose Activation Function">
+                                <ComboBoxItem>Bipolar Bainary Function</ComboBoxItem>
+                                <ComboBoxItem>Unipolar Bainary Function</ComboBoxItem>
+                            </ComboBox>
+                            <StackPanel Orientation="Horizontal">
+                                <CheckBox Margin="5" x:Name="SetBaisCheckBox">With Bias</CheckBox>
+                                <TextBox Name="baisMatTextBox" Controls:TextBoxHelper.Watermark="Enter bais" Margin="5" Width="230" IsEnabled="{Binding ElementName=SetBaisCheckBox, Path=IsChecked , UpdateSourceTrigger=PropertyChanged}">
+                                </TextBox>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <CheckBox Margin="5"   x:Name="SetWeightManuallyCheckBox" >Set Weights Manually</CheckBox>
+                                <Button Click="openSetWeightButtonClick" Margin="5" Width="150" Name="openSetWeightButton" IsEnabled="{Binding ElementName=SetWeightManuallyCheckBox, Path=IsChecked }"
+                            HorizontalAlignment="Left">Enter Weights
+                                </Button>
+                            </StackPanel>
+                            <TextBox Controls:TextBoxHelper.SelectAllOnFocus="True" Controls:TextBoxHelper.UseFloatingWatermark="True"  Name="epochsTextBox" Controls:TextBoxHelper.Watermark="Epochs" Margin="5"></TextBox>
+                            <TextBox Controls:TextBoxHelper.SelectAllOnFocus="True" Controls:TextBoxHelper.UseFloatingWatermark="True" Name="LearningRateTextBox" Controls:TextBoxHelper.Watermark="Learning Rate" Margin="5"></TextBox>
+                            <TextBox Controls:TextBoxHelper.SelectAllOnFocus="True" Controls:TextBoxHelper.UseFloatingWatermark="True" Name="TimeTextBox" Controls:TextBoxHelper.Watermark="Time in ms" Margin="5"></TextBox>
+                            <TextBox Controls:TextBoxHelper.SelectAllOnFocus="True" Controls:TextBoxHelper.UseFloatingWatermark="True" Name="ThreasholdTextBox" Controls:TextBoxHelper.Watermark="Threashold" Margin="5"></TextBox>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Margin="5" Click="TrainButtonClick" Width="150">Train</Button>
+                                <Button Margin="5" Click="TestButtonClick" Width="150">Test</Button>
+                            </StackPanel>
+                        </StackPanel>
+                    </ScrollViewer>
+                </GroupBox>
+            </Grid>
+            <!-- drawing tools-->
+            <Grid Grid.Column="1" Grid.Row="1"></Grid>
+            <!--NetWork drawing-->
+            <GroupBox Header="Network Drawing:" BorderThickness="0"  Grid.Column="0" Grid.Row="1" Style="{StaticResource GroupBoxHeader}">
+                
+            <ScrollViewer  HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                <Grid Name="networkBoard"  >
+                    
+                    
+                </Grid>
+            </ScrollViewer>
+            </GroupBox>
+            <Button x:Name="button" Content="Modify" HorizontalAlignment="Left" Grid.Column="1" Click="button_Click"
+                    Grid.Row="1" VerticalAlignment="Top" Width="75"/>
+
+        </Grid>
+        </Grid>
+</Controls:MetroWindow>
+ 
